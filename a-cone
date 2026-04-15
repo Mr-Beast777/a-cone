@@ -1,0 +1,9 @@
+<a-assets>
+  <img id="texture" src="texture.png">
+</a-assets>
+
+<!-- Basic cone. -->
+<a-cone color="tomato" radius-bottom="3.5" radius-top="0.75"></a-cone>
+
+<!-- Textured box. -->
+<a-cone src="#texture"></a-cone>
